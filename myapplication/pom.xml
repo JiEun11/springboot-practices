@@ -1,20 +1,20 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<parent>
-		<groupId>com.poscoict</groupId>
-		<artifactId>springboot-practices</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-	</parent>
-	<artifactId>helloworld</artifactId>
-
-	<properties>
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.poscoict</groupId>
+    <artifactId>springboot-practices</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>myapplication</artifactId>
+  
+  <properties>
 		<project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
 		<project.reporting.outputEncodnig>utf-8</project.reporting.outputEncodnig>
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
 	</properties>
-
-	<dependencyManagement>
+	
+  <dependencyManagement>
 		<dependencies>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
@@ -44,7 +44,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>helloworld</finalName>
+		<finalName>myapplication</finalName>
 		<plugins>
 			<!-- spring boot maven 플러그인 -->
 			<plugin>
